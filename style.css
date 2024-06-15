@@ -140,3 +140,30 @@ header nav {
 .My-home h1 {
   font-size: 100px;
 }
+
+
+footer{
+  background-color: #000000;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links ul{
+  display: flex;
+  
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 50px;
+}
+.footer-links li {
+  margin-top: 30px;
+}
+.footer-links li+li {
+  margin-left: 32px;
+}
