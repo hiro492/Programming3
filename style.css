@@ -14,8 +14,13 @@ header {
   position: fixed;
   top: 0;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   z-index: 3;
+  padding: 0 20px;
 }
+
+
 
 .box {
   opacity: 0;
@@ -77,14 +82,25 @@ button:active {
 }
 
 header nav {
-  margin: 0 20px 0 auto;
+  margin: 0;
 }
 
 .header-nav ul {
-  margin: auto ;
+  margin: 0 ;
   list-style: none;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.header-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
 
 .header-nav li+li {
   margin-left: 50px;
@@ -110,6 +126,7 @@ header nav {
 .cooking {
   width: 100%;
   background: url(images/cook-background.png);
+
   margin-top: -16px;
   padding: 0;
   text-align: center;
