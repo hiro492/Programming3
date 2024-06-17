@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Juice ITC";
+}
+
+button {
+  width: 564px;
+  height: 147px;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 #222;
+  outline: 2px solid transparent;
+  outline-offset: 100px;
+  transition: .5s all ease;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 2px solid #000;
+  outline-offset: 0;
+}
+
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInAnime {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+button:active {
+  position: relative;
+  top: 3px;
+  box-shadow: 0 0 0 #222;
+}
+
+
+
+.hero {
+  margin: 0;
+  border: 0;
+}
+
+.hero-image {
+  width: 100%;
+  height: 1080px;
+  background: url(../images/hero.png);
+}
+
+.cooking {
+  width: 100%;
+  background: url(../images/cook-background.png);
+  margin-top: -16px;
+  padding: 0;
+  text-align: center;
+}
+
+.cooking h1 {
+  margin: 0;
+  font-size: 100px;
+}
+
+.Cooking-article {
+  margin-top: 150px;
+}
+
+.Cooking-button button {
+  background-color:#77B16A;
+  margin: 100px;
+}
+.My-home{
+  width: 100%;
+
+  background: url(../images/House-introduce.png);
+  margin-top: -90px;
+  padding: 0;
+  text-align: center;
+}
+
+.My-home h1 {
+  font-size: 100px;
+}
+.My-hobby{
+  width: 100%;
+
+  background: url(../images/hobby-image.png);
+  margin-top: -150px;
+  padding: 0;
+  text-align: center;
+  font-size: 100px;
+}
+
