@@ -1,2 +1,29 @@
 @charset "utf-8";
 
+.introduce{
+  margin-top: 250px;
+}
+.aboutmeText{
+font-size: 64px;
+}
+
+.profile{
+  display: flex;
+}
+
+.profilieimage img{
+  width: 300px;
+  height: 300px;
+  margin-left: 40px;
+  border-radius: 50%;
+}
+
+.profileText{
+  margin-left: 500px;
+}
+
+.profileText h1{
+  font-size: 100px;
+  position: relative;
+  top: -30px;
+}
