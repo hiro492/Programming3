@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My vlog</title>
+</head>
+<body>
+<header>
+  <!-- ロゴ・ナビゲーション-->
+  <div class="logo">
+    <img src="../../images/logo.jpg" alt="My vlog">
+  </div>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../aboutme/index.html">About me</a></li>
+      <li>Portfolio</li>
+    </ul>
+  </nav>
+</header>
+<!-- style -->
+<style>
+  /* ヘッダー */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 20px 40px;
+    background-color: #f1f1f1;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+
+</style>
+<!-- パンくずリスト -->
+<div class="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../aboutme/index.html">About me</a></li>
+    <li>Portfolio</li>
+  </ul>
+</div>
+<!-- style -->
+<style>
+  /* パンくずリスト */
+  .breadcrumbs {
+    padding: 20px 40px;
+    background-color: #f1f1f1;
+  }
+
+  .breadcrumbs ul {
+    display: flex;
+    list-style: none; /* Add this line */
+  }
+
+  .breadcrumbs ul li {
+    margin-right: 20px;
+  }
+
+  .breadcrumbs ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  .breadcrumbs ul li::after {
+    content: ">";
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #333;
+  }
+</style>
+<!-- ヒーローイメージ -->
+<div class="hero-image">
+  <img src="../../images/hero-image.jpg" alt="Hero image">
+</div>
+<!-- style -->
+<style>
+  /* ヒーローイメージ */
+  .hero-image img {
+    width: 100%;
+  }
+</style>
+<!-- サービス紹介 -->
+<div class="services">
+  <h2>My vlog</h2>
+  <p>My vlogは、私が日々の生活で感じたことや、興味を持ったことを動画にして公開しています。</p>
+</div>
+<!-- style -->
+<style>
+  /* サービス紹介 */
+  .services {
+    text-align: center;
+    padding: 40px;
+  }
+</style>
+<!-- 作品一覧 -->
+<div class="works">
+  <h3>Works</h3>
+  <div class="work">
+    <img src="../../images/work1.jpg" alt="Work 1">
+    <p>Work 1</p>
+  </div>
+  <div class="work">
+    <img src="../../images/work2.jpg" alt="Work 2">
+    <p>Work 2</p>
+  </div>
+  <div class="work">
+    <img src="../../images/work3.jpg" alt="Work 3">
+    <p>Work 3</p>
+  </div>
+</div>
+<!-- style -->
+<style>
+  /* 作品一覧 */
+  .works {
+    padding: 40px;
+  }
+
+  .work {
+    margin-top: 20px;
+  }
+
+  .work img {
+    width: 100%;
+  }
+</style>
+<!-- フッター -->
+<footer>
+  <p>My vlog</p>
+</footer>
+<!-- style -->
+<style>
+  /* フッター */
+  footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+  }
+</style>
+
+  
+</body>
+</html>
