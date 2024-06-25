@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+a{
+  text-decoration: none;
+  color: #000;
+}
 .introduce{
   margin-top: 250px;
 }
@@ -52,7 +55,9 @@ font-size: 64px;
   width: 100%;
   height: auto;
 }
-
+.card a{
+  text-decoration: none;
+}
 .card-description {
   padding: 15px;
 }
