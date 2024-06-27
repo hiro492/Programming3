@@ -109,35 +109,74 @@
     padding: 40px;
   }
 </style>
-<!-- 作品一覧 -->
+<!-- works with link -->
 <div class="works">
-  <h3>Works</h3>
+  <h2>Works</h2>
+  <h2>HTML&CSS</h2>
   <div class="work">
-    <img src="../../images/work1.jpg" alt="Work 1">
-    <p>Work 1</p>
+    <div class="work-image">
+      <a href="https://hiro492.github.io/Game-Lp/">
+      <img src="../../images/work1.jpg" alt="Work1">
+    </div>
+    <div class="work-text">
+      <h3>Work1</h3>
+      <p>Work1は、○○についての動画です。</p>
+    </div>
+    </a>
   </div>
   <div class="work">
-    <img src="../../images/work2.jpg" alt="Work 2">
-    <p>Work 2</p>
+    <div class="work-image">
+      <a>
+      <img src="../../images/work1.jpg" alt="Work1">
+    </div>
+    <div class="work-text">
+      <h3>Work1</h3>
+      <p>Work1は、○○についての動画です。</p>
+    </div>
+    </a>
   </div>
   <div class="work">
-    <img src="../../images/work3.jpg" alt="Work 3">
-    <p>Work 3</p>
-  </div>
+    <div class="work-image">
+      <a>
+      <img src="../../images/work1.jpg" alt="Work1">
+    </div>
+    <div class="work-text">
+      <h3>Work1</h3>
+      <p>Work1は、○○についての動画です。</p>
+    </div>
+    </a>
 </div>
 <!-- style -->
 <style>
-  /* 作品一覧 */
+  /* Works */
   .works {
     padding: 40px;
   }
 
   .work {
-    margin-top: 20px;
+    display: flex;
+    margin-top: 40px;
   }
 
-  .work img {
-    width: 100%;
+  .work-image img {
+    width: 300px;
+  }
+
+  .work-text {
+    margin-left: 40px;
+  }
+
+  .work-text h3 {
+    margin: 0;
+  }
+
+  .work-text p {
+    margin: 0;
+  }
+
+  .work a {
+    text-decoration: none;
+    color: #333;
   }
 </style>
 <!-- フッター -->
